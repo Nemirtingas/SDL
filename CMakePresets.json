@@ -12,6 +12,13 @@
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
+        "SDL_VIDEO": "OFF",
+        "SDL_CAMERA": "OFF",
+        "SDL_SENSOR": "OFF",
+        "SDL_POWER": "OFF",
+        "SDL_AUDIO": "OFF",
+        "SDL_DIALOG": "OFF",
+        "SDL_UNIX_CONSOLE_BUILD": "ON",
         "SDL_ASSEMBLY": "OFF",
         "SDL_AVX": "OFF",
         "SDL_AVX2": "OFF",
