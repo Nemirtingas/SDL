@@ -21,7 +21,7 @@
 
 #include "SDL_internal.h"
 
-#ifndef SDL_PLATFORM_MACOS
+//#ifndef SDL_PLATFORM_MACOS
 
 #include "../SDL_tray_utils.h"
 
@@ -142,4 +142,4 @@ void SDL_DestroyTray(SDL_Tray *tray)
     SDL_Unsupported();
 }
 
-#endif // !SDL_PLATFORM_MACOS
+//#endif // !SDL_PLATFORM_MACOS

@@ -3447,6 +3447,7 @@ endif()
 if(SDL_STATIC)
   set_target_properties(SDL3-static PROPERTIES
     OUTPUT_NAME "${sdl_static_libname}"
+	POSITION_INDEPENDENT_CODE TRUE
   )
   target_compile_definitions(SDL3-static PRIVATE SDL_STATIC_LIB)
   target_link_libraries(SDL3-static PRIVATE ${SDL_CMAKE_DEPENDS})
