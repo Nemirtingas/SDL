@@ -12,6 +12,7 @@
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
+		"CMAKE_MSVC_RUNTIME_LIBRARY": "MultiThreaded",
         "SDL_VIDEO": "OFF",
         "SDL_CAMERA": "OFF",
         "SDL_SENSOR": "OFF",
